@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body class="bg-gray-800 text-gray-400">
-    <header class="sticky bg-gray-950 py-5"> <!-- Header -->
-        <nav class=" w-10/12 flex flex-row mx-auto">
-            <div class="uppercase text-lg  basis-1/4 justify-start"><a href=""> <!-- logo -->
-                    <span class="font-extrabold text-white">Fardi</span>
-                    <span class="font-extralight text-blue-400">Ansyah</span>
-                </a></div>
-            <div class="basis-1/2 flex items-center justify-evenly"> <!-- Link -->
-                <a href=""><span>Services</span></a>
-                <a href=""><span>Portofolios</span></a>
-                <a href=""><span>Experiences</span></a>
-                <a href=""><span>Contact</span></a>
-            </div>
-            <div class="basis-1/4 flex justify-end"> <!-- Dark Mode -->
-                <img class="w-7" src="./img/globe.svg" alt="">
-            </div>
-        </nav>
+  <body class="bg-gray-800 text-gray-400">
+    <header class="sticky bg-gray-950 py-5">
+      <!-- Header -->
+      <nav class="w-10/12 flex flex-row mx-auto">
+        <div class="uppercase text-lg basis-1/4 justify-start">
+          <a href="">
+            <!-- logo -->
+            <span class="font-extrabold text-white">Fardi</span>
+            <span class="font-extralight text-blue-400">Ansyah</span>
+          </a>
+        </div>
+        <div class="basis-1/2 flex items-center justify-evenly">
+          <!-- Link -->
+          <a href=""><span>Services</span></a>
+          <a href=""><span>Portofolios</span></a>
+          <a href=""><span>Experiences</span></a>
+          <a
+            href=""
+            class="border-2 border-neutral-200 rounded-md"
+            style="padding: 0.1em 0.9em"
+            ><span>Contact</span></a
+          >
+        </div>
+        <div class="basis-1/4 flex justify-end">
+          <!-- Dark Mode -->
+          <span class="hidden dark:inline end:0"
+            ><img class="w-6" src="./img/mode.svg" alt=""
+          /></span>
+        </div>
+      </nav>
     </header>
-    <main><!-- Main Content -->
-
+    <main>
+      <!-- Main Content -->
+      <div>
+        <!-- Hero Section -->
+        <div class="flex w-10/12 bg-gray-950 h-screen items-center mx-auto">
+          <div class="basis-1/2">
+            <!-- Avatar -->
+            <img src="./img/avatar.png" alt="avatar" />
+          </div>
+          <div class="basis-1/2">
+            <div class="flex items-center">
+              <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                <line x1="0" y1="10px" x2="10px" y2="10px" />
+              </svg>
+              <h2 class="uppercase text-xs font-extralight tracking-widest">
+                My Name is
+              </h2>
+            </div>
+            <h3 class="font-bold text-3xl text-neutral-100">
+                <span>Fardi</span>
+                <span class="text-blue-500">Ansyah.</span></h3>
+            <p>
+              Creative Front-end developer with more than 3+ years of
+              Experiences in enterprise companies and startups. Proficient in
+              HTML, Tailwind CSS, Javascript. Passionate about Games.
+            </p>
+            <div>
+              <img src="./img/Instagram.svg" alt="" />
+              <img src="./img/Github.svg" alt="" />
+              <img src="./img/Twitter.svg" alt="" />
+              <img src="./img/Linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer> <!-- Footer -->
-
-    </footer>
-</body>
-
+    <footer><!-- Footer --></footer>
+  </body>
 </html>
